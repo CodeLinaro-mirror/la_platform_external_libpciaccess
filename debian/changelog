@@ -3,6 +3,8 @@ libpciaccess (0.14-1) UNRELEASED; urgency=medium
   * Use https URL in debian/watch.
   * Add Adam Jackson's new key to signing-key.asc.
   * New upstream release.
+    + delete Include-config.h-before-anything-else-in-.c.diff, applied
+      upstream
 
  -- Julien Cristau <jcristau@debian.org>  Fri, 12 Jan 2018 23:41:46 +0100
 
