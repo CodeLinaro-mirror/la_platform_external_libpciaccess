@@ -5,6 +5,7 @@ libpciaccess (0.14-1) UNRELEASED; urgency=medium
   * New upstream release.
     + delete Include-config.h-before-anything-else-in-.c.diff, applied
       upstream
+  * Update Vcs-* control fields for move to salsa.
 
  -- Julien Cristau <jcristau@debian.org>  Fri, 12 Jan 2018 23:41:46 +0100
 

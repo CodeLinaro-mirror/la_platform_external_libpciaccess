@@ -12,8 +12,8 @@ Build-Depends:
  dh-autoreconf,
  quilt (>= 0.46-7),
 Standards-Version: 3.9.2
-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libpciaccess
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libpciaccess.git
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libpciaccess.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libpciaccess
 
 Package: libpciaccess0
 Section: libs
