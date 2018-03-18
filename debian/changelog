@@ -1,4 +1,4 @@
-libpciaccess (0.14-1) UNRELEASED; urgency=medium
+libpciaccess (0.14-1) unstable; urgency=medium
 
   * Use https URL in debian/watch.
   * Add Adam Jackson's new key to signing-key.asc.
@@ -7,7 +7,7 @@ libpciaccess (0.14-1) UNRELEASED; urgency=medium
       upstream
   * Update Vcs-* control fields for move to salsa.
 
- -- Julien Cristau <jcristau@debian.org>  Fri, 12 Jan 2018 23:41:46 +0100
+ -- Julien Cristau <jcristau@debian.org>  Sun, 18 Mar 2018 15:50:43 +0100
 
 libpciaccess (0.13.4-1) unstable; urgency=medium
 
