@@ -1,3 +1,9 @@
+libpciaccess (0.16-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 31 Jul 2020 16:07:44 +0300
+
 libpciaccess (0.14-1) unstable; urgency=medium
 
   * Use https URL in debian/watch.
