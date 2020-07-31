@@ -2,6 +2,7 @@ libpciaccess (0.16-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * control, rules: Use debhelper-compat, bump to 12.
+  * control: Bump policy to 4.5.0.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Fri, 31 Jul 2020 16:07:44 +0300
 
