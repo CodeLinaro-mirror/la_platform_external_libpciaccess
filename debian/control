@@ -3,13 +3,10 @@ Section: devel
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
- debhelper (>= 9),
- libtool,
- automake,
+ debhelper-compat (= 12),
  zlib1g-dev,
  xutils-dev (>= 1:7.5),
  pkg-config,
- dh-autoreconf,
  quilt (>= 0.46-7),
 Standards-Version: 3.9.2
 Vcs-Git: https://salsa.debian.org/xorg-team/lib/libpciaccess.git
