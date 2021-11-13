@@ -2,6 +2,7 @@ libpciaccess (0.16-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update the symbols file for Hurd and kFreeBSD archs. (Closes: #997009)
+  * Add Build-Depends-Package to the symbols file.
 
  -- Debian X Strike Force <debian-x@lists.debian.org>  Sat, 13 Nov 2021 11:59:09 +0100
 
