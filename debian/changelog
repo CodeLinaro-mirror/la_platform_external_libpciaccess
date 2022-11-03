@@ -1,6 +1,7 @@
 libpciaccess (0.17-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * symbols: Updated.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 03 Nov 2022 16:06:39 +0100
 
