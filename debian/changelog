@@ -1,3 +1,9 @@
+libpciaccess (0.17-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 03 Nov 2022 16:06:39 +0100
+
 libpciaccess (0.16-3) unstable; urgency=medium
 
   [ Pino Toscano ]
