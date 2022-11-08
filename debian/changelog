@@ -4,6 +4,7 @@ libpciaccess (0.17-3) UNRELEASED; urgency=medium
     + debian/rules: Drop --fail-missing argument to dh_missing, which is now the
       default.
   * Replace XC-Package-Type with Package-Type.
+  * Update standards version to 4.6.1, no changes needed.
 
  -- Debian Janitor <janitor@jelmer.uk>  Tue, 08 Nov 2022 11:38:11 -0000
 
