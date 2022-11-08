@@ -1,3 +1,11 @@
+libpciaccess (0.17-3) UNRELEASED; urgency=medium
+
+  * Bump debhelper from old 12 to 13.
+    + debian/rules: Drop --fail-missing argument to dh_missing, which is now the
+      default.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Tue, 08 Nov 2022 11:38:11 -0000
+
 libpciaccess (0.17-2) unstable; urgency=medium
 
   * symbols: Update for Hurd. (Closes: #1023418)
