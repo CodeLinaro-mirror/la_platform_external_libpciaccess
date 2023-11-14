@@ -1,4 +1,4 @@
-libpciaccess (0.17-3) UNRELEASED; urgency=medium
+libpciaccess (0.17-3) unstable; urgency=medium
 
   [ Debian Janitor ]
   * Bump debhelper from old 12 to 13.
@@ -10,7 +10,7 @@ libpciaccess (0.17-3) UNRELEASED; urgency=medium
   [ Samuel Thibault ]
   * symbols: Add hurd-amd64 symbols. (Closes: #1035622)
 
- -- Debian Janitor <janitor@jelmer.uk>  Tue, 08 Nov 2022 11:38:11 -0000
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 14 Nov 2023 11:22:26 +0200
 
 libpciaccess (0.17-2) unstable; urgency=medium
 
