@@ -1,0 +1,64 @@
+package {
+    default_applicable_licenses: ["external_libpciaccess_license"],
+}
+
+license {
+    name: "external_libpciaccess_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-MIT",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+cc_library_headers {
+    name: "libpciaccess_headers",
+    visibility: [
+        "//external/igt-gpu-tools",
+    ],
+    export_include_dirs: [
+        "include",
+    ],
+}
+
+cc_library_static {
+    name: "libpciaccess",
+    visibility: [
+        "//external/igt-gpu-tools",
+    ],
+    shared_libs: [
+        "libcutils",
+        "liblog",
+    ],
+    local_include_dirs: [
+        "include",
+    ],
+    header_libs: [
+        "liblog_headers",
+    ],
+    srcs: [
+        "src/common_bridge.c",
+        "src/common_capability.c",
+        "src/common_device_name.c",
+        "src/common_init.c",
+        "src/common_interface.c",
+        "src/common_io.c",
+        "src/common_iterator.c",
+        "src/common_map.c",
+        "src/common_vgaarb.c",
+        "src/linux_devmem.c",
+        "src/linux_sysfs.c",
+    ],
+    cflags: [
+        "-Werror",
+        "-Winvalid-pch",
+        "-DHAVE_INTTYPES_H",
+        "-DHAVE_STDINT_H",
+        "-DHAVE_STRINGS_H",
+        "-DHAVE_STRING_H",
+        "-Dlinux",
+        "-DPCIIDS_PATH=\"\"",
+    ],
+}
