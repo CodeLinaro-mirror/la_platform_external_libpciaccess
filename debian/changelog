@@ -1,11 +1,11 @@
-libpciaccess (0.18.1-1) UNRELEASED; urgency=medium
+libpciaccess (0.18.1-1) experimental; urgency=medium
 
   * New upstream release.
   * watch: Updated.
   * control, rules: Build with meson, update config flags.
   * control: Migrate to pkgconf.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Tue, 03 Jun 2025 10:55:28 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 03 Jun 2025 11:20:55 +0300
 
 libpciaccess (0.17-3) unstable; urgency=medium
 
