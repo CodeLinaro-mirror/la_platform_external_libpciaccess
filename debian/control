@@ -6,6 +6,7 @@ Build-Depends:
  debhelper-compat (= 13),
  zlib1g-dev,
  xutils-dev (>= 1:7.5),
+ meson,
  pkg-config,
  quilt (>= 0.46-7),
 Standards-Version: 4.6.1
