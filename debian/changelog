@@ -1,6 +1,7 @@
 libpciaccess (0.18.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * watch: Updated.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Tue, 03 Jun 2025 10:55:28 +0300
 
