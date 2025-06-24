@@ -13,16 +13,6 @@ license {
     ],
 }
 
-cc_library_headers {
-    name: "libpciaccess_headers",
-    visibility: [
-        "//external/igt-gpu-tools",
-    ],
-    export_include_dirs: [
-        "include",
-    ],
-}
-
 cc_library_static {
     name: "libpciaccess",
     visibility: [
@@ -32,7 +22,7 @@ cc_library_static {
         "libcutils",
         "liblog",
     ],
-    local_include_dirs: [
+    export_include_dirs: [
         "include",
     ],
     header_libs: [
