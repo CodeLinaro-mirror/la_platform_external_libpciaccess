@@ -1,9 +1,9 @@
-libpciaccess (0.18.1-2) UNRELEASED; urgency=medium
+libpciaccess (0.18.1-2) experimental; urgency=medium
 
   * control: Add zlib1g-dev to libpciaccess-dev Depends. (Closes:
     #1108628)
 
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 02 Jul 2025 09:55:04 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 02 Jul 2025 09:56:31 +0300
 
 libpciaccess (0.18.1-1) experimental; urgency=medium
 
