@@ -38,7 +38,11 @@ Section: libdevel
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same
-Depends: libpciaccess0 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ libpciaccess0 (= ${binary:Version}),
+ zlib1g-dev,
 Description: Generic PCI access library for X - development files
  Provides functionality for X to access the PCI bus and devices
  in a platform-independent way.
