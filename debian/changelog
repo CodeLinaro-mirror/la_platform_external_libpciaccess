@@ -1,6 +1,6 @@
 libpciaccess (0.19-1) UNRELEASED; urgency=medium
 
-  * New upstream release. (Closes: #1141617)
+  * New upstream release. (Closes: #1141617, #1111301)
   * rules: correct pc.ids path. (Closes: #1141252)
   * control: Depend on pci.ids instead of suggesting pciutils.
    (Closes: #944498)
