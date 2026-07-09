@@ -1,4 +1,4 @@
-libpciaccess (0.19-1) UNRELEASED; urgency=medium
+libpciaccess (0.19-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #1141617, #1111301)
   * rules: correct pc.ids path. (Closes: #1141252)
@@ -10,7 +10,7 @@ libpciaccess (0.19-1) UNRELEASED; urgency=medium
   * source: Migrate to format 3.0 (quilt). (Closes: #1073026 )
   * Drop upstream changelog.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Jul 2026 23:33:00 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 10 Jul 2026 00:06:56 +0300
 
 libpciaccess (0.18.1-2) experimental; urgency=medium
 
