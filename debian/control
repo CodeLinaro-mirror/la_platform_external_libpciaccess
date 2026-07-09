@@ -16,8 +16,10 @@ Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libpciaccess
 Package: libpciaccess0
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: pciutils
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ pci.ids
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same
 Description: Generic PCI access library for X
@@ -28,8 +30,10 @@ Package: libpciaccess0-udeb
 Package-Type: udeb
 Section: debian-installer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: pciutils
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ pci.ids
 Description: Generic PCI access library for X
  This is a udeb, or a microdeb, for the debian-installer.
 
