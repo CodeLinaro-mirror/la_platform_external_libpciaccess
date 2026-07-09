@@ -5,6 +5,7 @@ libpciaccess (0.19-1) UNRELEASED; urgency=medium
   * control: Depend on pci.ids instead of suggesting pciutils.
    (Closes: #944498)
   * upstream: Add signing key from Alan Coopersmith.
+  * symbols: Updated.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Jul 2026 23:33:00 +0300
 

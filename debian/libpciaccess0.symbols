@@ -23,6 +23,7 @@ libpciaccess.so.0 libpciaccess0 #MINVER#
  pci_device_get_subvendor_name@Base 0
  pci_device_get_vendor_name@Base 0
  pci_device_has_kernel_driver@Base 0.10.7
+ pci_device_is_boot_display@Base 0.19
  pci_device_is_boot_vga@Base 0.10.7
  pci_device_map_legacy@Base 0.12.902
  pci_device_map_memory_range@Base 0
