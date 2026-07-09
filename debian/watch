@@ -1,4 +1,5 @@
 #git=git://anongit.freedesktop.org/xorg/lib/libpciaccess
-version=3
-opts=pgpsigurlmangle=s/$/.sig/ \
-https://xorg.freedesktop.org/releases/individual/lib/ libpciaccess-(.*)\.tar\.xz
+Version: 5
+
+Source: https://xorg.freedesktop.org/releases/individual/lib/
+Pgp-Sig-Url-Mangle: s/$/.sig/
