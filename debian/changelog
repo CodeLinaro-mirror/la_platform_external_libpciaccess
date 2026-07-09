@@ -8,6 +8,7 @@ libpciaccess (0.19-1) UNRELEASED; urgency=medium
   * symbols: Updated.
   * watch: Migrate to version 5.
   * source: Migrate to format 3.0 (quilt). (Closes: #1073026 )
+  * Drop upstream changelog.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Jul 2026 23:33:00 +0300
 
