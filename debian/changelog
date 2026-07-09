@@ -1,6 +1,7 @@
 libpciaccess (0.19-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #1141617)
+  * rules: correct pc.ids path. (Closes: #1141252)
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Jul 2026 23:33:00 +0300
 
