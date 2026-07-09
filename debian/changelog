@@ -1,3 +1,9 @@
+libpciaccess (0.19-1) UNRELEASED; urgency=medium
+
+  * New upstream release. (Closes: #1141617)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Jul 2026 23:33:00 +0300
+
 libpciaccess (0.18.1-2) experimental; urgency=medium
 
   * control: Add zlib1g-dev to libpciaccess-dev Depends. (Closes:
