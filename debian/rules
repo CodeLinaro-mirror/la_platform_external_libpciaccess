@@ -3,7 +3,7 @@
 PACKAGE = libpciaccess0
 
 %:
-	dh $@ --with quilt --builddirectory=build/
+	dh $@ --builddirectory=build/
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
