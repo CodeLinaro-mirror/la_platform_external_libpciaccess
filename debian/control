@@ -33,7 +33,8 @@ Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- pci.ids
+Suggests:
+ pciutils-udeb
 Description: Generic PCI access library for X
  This is a udeb, or a microdeb, for the debian-installer.
 
