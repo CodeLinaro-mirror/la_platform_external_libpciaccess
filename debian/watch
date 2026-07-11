@@ -1,5 +1,5 @@
-#git=git://anongit.freedesktop.org/xorg/lib/libpciaccess
 Version: 5
 
 Source: https://xorg.freedesktop.org/releases/individual/lib/
+Matching-Pattern: libpciaccess-(.*)\.tar\.xz
 Pgp-Sig-Url-Mangle: s/$/.sig/
