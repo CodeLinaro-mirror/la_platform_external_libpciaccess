@@ -90,6 +90,9 @@ if host_machine.system() == 'netbsd'
   endif
 elif host_machine.system() == 'sunos'
   extra_libs += c.find_library('devinfo')
+elif host_machine.system() == 'gnu'
+  extra_libs += c.find_library('machuser')
+  extra_libs += c.find_library('hurduser')
 endif
 
 if host_machine.system() == 'netbsd'
